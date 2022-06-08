@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grid-container{
+    font-family:'Hind', sans-serif ;
+    display: grid;
+    grid-template-columns: 50% 50%
+}
+.header{
+    background-color: black;
+    grid-column: 1/3;
+    color: aliceblue;
+}
+.header a{
+    list-style: none;
+    text-decoration: none; 
+    color: aliceblue;
+}
+.header h1{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.barra{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5%;
+    
+    
+}
+.barra a{
+    color: aliceblue;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+.fondo{
+    grid-column: 1/3;
+    background-image:url("fotos/fondo.jpg");
+    background-size: 100%;
+    width: 200%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+}
+.fondo h3{
+    background-color: aliceblue;
+    border-radius: 10px;
+    opacity: 0.8;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+.ofertas h2{
+    display: flex;
+    justify-content: center;
+}
+.ofertas{
+    grid-column: 1/3;
+    margin: 20px;
+    width: 200%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+   
+    
+}
+.cards{
+    width: 400;
+    height: 300;
+    border: solid 1px black;   
+}
+.cards p{
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cards img{
+    width: 300px;
+    height: 200px;
+}
+
+    
+
+.footer{
+    grid-column: 1/3;
+    margin-top: 80px;
+    height: 300px;
+    background-color: black;
+    color: aliceblue;
+}
+footer h1,h4{
+    padding-left: 20px;
+    padding-top: 10px; 
+}
+.footer li{
+    list-style: none;
+
+}
+.footer a{
+    text-decoration: none;
+    color: aliceblue;
+}
+footer h4{
+    text-align: center;
+}
+.redes{
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: center;
+    gap: 30px;
+}
+footer p{
+    text-align: center;
+}
+.formulario{
+    grid-column: 1/3;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+.formulario form{
+    width: 50%;
+}
